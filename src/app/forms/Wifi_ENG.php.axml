@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="Wifi">
+    <method name="doImageClickLeft">
+      <hideForm form="Wifi" form-type="form"/>
+    </method>
+  </class>
+<class name="Wifi_ENG">
+    <method name="doImageClickLeft">
+      <hideForm form="Wifi_ENG" form-type="form"/>
+    </method>
+  </class>
+</root>

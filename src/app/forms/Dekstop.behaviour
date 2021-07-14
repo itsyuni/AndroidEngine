@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<behaviours>
+  <target id="label">
+    <behaviour format="HH:mm" type="behaviour\custom\WatchMakerBehaviour"/>
+  </target>
+  <target id="labelAlt">
+    <behaviour format="HH:mm" type="behaviour\custom\WatchMakerBehaviour"/>
+  </target>
+  <target id="label3">
+    <behaviour format="dd.MM.YY" type="behaviour\custom\WatchMakerBehaviour"/>
+  </target>
+  <target id="image6">
+    <behaviour threshold="0.40975609756098" type="behaviour\custom\BloomEffectBehaviour" when="HOVER"/>
+  </target>
+  <target id="image7">
+    <behaviour threshold="0.43414634146341" type="behaviour\custom\BloomEffectBehaviour" when="HOVER"/>
+  </target>
+  <target id="image8">
+    <behaviour threshold="0.4219512195122" type="behaviour\custom\BloomEffectBehaviour" when="HOVER"/>
+  </target>
+  <target id="image10">
+    <behaviour threshold="0.39756097560976" type="behaviour\custom\BloomEffectBehaviour" when="HOVER"/>
+  </target>
+  <target id="image11">
+    <behaviour threshold="0.39756097560976" type="behaviour\custom\BloomEffectBehaviour" when="HOVER"/>
+  </target>
+  <target id="image9">
+    <behaviour threshold="0.3" type="behaviour\custom\BloomEffectBehaviour" when="HOVER"/>
+  </target>
+  <target id="image12">
+    <behaviour threshold="0.4219512195122" type="behaviour\custom\BloomEffectBehaviour" when="HOVER"/>
+  </target>
+  <target id="image13">
+    <behaviour threshold="0.44864864864865" type="behaviour\custom\BloomEffectBehaviour" when="HOVER"/>
+  </target>
+</behaviours>

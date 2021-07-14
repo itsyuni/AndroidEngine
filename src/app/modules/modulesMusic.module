@@ -1,0 +1,27 @@
+{
+  "props": [],
+  "components": {
+    "player": {
+      "type": "script\\MediaPlayerScript",
+      "x": 544,
+      "y": 288,
+      "props": {
+        "autoplay": "1",
+        "volume": "1.0",
+        "balance": "0.0",
+        "rate": "1.0"
+      }
+    },
+    "fileChooser": {
+      "type": "script\\FileChooserScript",
+      "x": 144,
+      "y": 240,
+      "props": {
+        "multiple": true,
+        "filterName": "",
+        "filterExtensions": "",
+        "filterAny": "0"
+      }
+    }
+  }
+}

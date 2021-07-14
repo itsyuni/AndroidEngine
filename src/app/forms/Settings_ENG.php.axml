@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="Settings">
+    
+  <method name="doButtonClickLeft">
+      <hideForm form="Settings" form-type="form"/>
+    </method>
+  <method name="doButtonAltClickLeft">
+      <toast value="Недоступно, ожидайте обновления" value-type="string"/>
+    </method>
+  
+  <method name="doLabel4ClickLeft">
+      <showForm form="Wifi" form-type="form"/>
+    </method>
+  <method name="doLabel5ClickLeft">
+      <showForm form="Bluetooth" form-type="form"/>
+    </method>
+  <method name="doLabel13ClickLeft">
+      <showForm form="Info" form-type="form"/>
+    </method>
+  <method name="doLabel6ClickLeft">
+      <showForm form="SIM" form-type="form"/>
+    </method>
+  <method name="doLabel7ClickLeft">
+      <showForm form="PO" form-type="form"/>
+    </method>
+  </class>
+<class name="Settings_ENG">
+    <method name="doButtonClickLeft">
+      <hideForm form="Settings_ENG" form-type="form"/>
+    </method>
+  <method name="doLabel4ClickLeft">
+      <showForm form="Wifi_ENG" form-type="form"/>
+    </method>
+  <method name="doLabel5ClickLeft">
+      <showForm form="Bluetooth_ENG" form-type="form"/>
+    </method>
+  <method name="doLabel6ClickLeft">
+      <showForm form="SIM_ENG" form-type="form"/>
+    </method>
+  <method name="doLabel13ClickLeft">
+      <showForm form="Info_ENG" form-type="form"/>
+    </method>
+  <method name="doLabel7ClickLeft">
+      <showForm form="PO_ENG" form-type="form"/>
+    </method>
+  
+  <method name="doLabel9MouseDownLeft">
+      <showForm form="Language" form-type="form"/>
+    </method>
+  <method name="doLabel11ClickLeft">
+      <showForm form="MenuAdminAuth_ENG" form-type="form"/>
+    </method>
+  </class>
+</root>

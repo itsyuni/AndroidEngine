@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="Phone">
+    <method name="doButtonClickLeft">
+      <hideForm form="Phone" form-type="form"/>
+    </method>
+  <method name="doButtonAltClickLeft">
+      <toast value="Недоступно, ожидайте обновления" value-type="string"/>
+    </method>
+  </class>
+<class name="Phone_ENG">
+    <method name="doButtonClickLeft">
+      <hideForm form="Phone_ENG" form-type="form"/>
+    </method>
+  </class>
+</root>

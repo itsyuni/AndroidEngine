@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="Language">
+    <method name="doLabel3ClickLeft">
+      <showForm form="Dekstop" form-type="form"/>
+    </method>
+  
+  <method name="doImageClickLeft">
+      <hideForm form="Language" form-type="form"/>
+    </method>
+  </class>
+</root>

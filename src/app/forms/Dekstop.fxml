@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="864" prefWidth="1608" styleClass="">
+  <children>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="864" id="image" layoutX="0" layoutY="0" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="1608">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Rectangle arcHeight="0" arcWidth="0" fill="#000000" focusTraversable="false" height="41" id="rectAlt" layoutX="288" layoutY="822" opacity="0.70731707317073" stroke="#000000" strokeType="INSIDE" strokeWidth="2" styleClass="" width="1320"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-image" image=".data/img/3kLm-_LTCR.jpg" visible="1"/>
+    <Rectangle arcHeight="0" arcWidth="0" fill="#000000" focusTraversable="false" height="24" id="rect" layoutX="0" layoutY="0" opacity="0.74666666666667" stroke="#000000" strokeType="INSIDE" strokeWidth="2" styleClass="" width="1608"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rect" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="1567" layoutY="3" prefHeight="17" prefWidth="32" styleClass="label " text="Текст" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="16" id="imageAlt" layoutX="1545" layoutY="4" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="16">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-imageAlt" image=".data/img/full-battery-xxl.png" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="16" id="image3" layoutX="1525" layoutY="4" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="16">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image3" image=".data/img/wifi-xxl.png" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="34" id="image4" layoutX="8" layoutY="32" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="288">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image4" image=".data/img/Android-N-Preview-ausprobiert-1024x576-c8e8d5e4f5f8482a.jpg" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelAlt" layoutX="64" layoutY="48" prefHeight="136" prefWidth="178" styleClass="label " text="Текст" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="60"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-labelAlt" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label3" layoutX="120" layoutY="152" prefHeight="16" prefWidth="96" styleClass="label " text="Текст" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label3" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="41" id="image5" layoutX="0" layoutY="822" mosaic="false" mosaicGap="0" opacity="0.77333333333333" proportional="false" stretch="true" styleClass="" textFill="#000000" width="288">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image5" image=".data/img/Android-N-Preview-ausprobiert-1024x576-c8e8d5e4f5f8482a2.jpg" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="40" id="image6" layoutX="0" layoutY="776" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="49">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image6" image=".data/img/nav-icon.png" tooltipText="Меню" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="35" id="image7" layoutX="46" layoutY="779" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="35">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image7" image=".data/img/phone_white_36x36.png" tooltipText="Вызовы" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="35" id="image8" layoutX="86" layoutY="780" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="35">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image8" image=".data/img/textsms_white_36x36.png" tooltipText="Сообщения" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="35" id="image9" layoutX="287" layoutY="778" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="35">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image9" image=".data/img/chromium-browser.png" tooltipText="Браузер" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="35" id="image10" layoutX="127" layoutY="778" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="35">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image10" image=".data/img/settings_white_36x36.png" tooltipText="Настройки" visible="1"/>
+    <FlatButton alignment="CENTER" color="#6680e6" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#4d66cc" id="button" layoutX="96" layoutY="824" opacity="0" prefHeight="40" prefWidth="88" styleClass="x-flat-button " text="" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </FlatButton>
+    <Data cursor="DEFAULT" enabled="1" id="data-button" visible="1"/>
+    <FlatButton alignment="CENTER" color="#6680e6" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="0" hoverColor="#4d66cc" id="buttonAlt" layoutX="200" layoutY="824" opacity="0" prefHeight="40" prefWidth="56" styleClass="x-flat-button " text="" textAlignment="CENTER" textFill="#ffffff" underline="true" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </FlatButton>
+    <Data cursor="DEFAULT" enabled="1" id="data-buttonAlt" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="35" id="image11" layoutX="167" layoutY="777" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="35">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image11" image=".data/img/extension_white_24x24.png" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="35" id="image12" layoutX="208" layoutY="777" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="35">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image12" image=".data/img/description_white_27x27.png" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="35" id="image13" layoutX="245" layoutY="779" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="35">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image13" image=".data/img/headset_white_27x27.png" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label4" layoutX="1432" layoutY="0" prefHeight="88" prefWidth="200" styleClass="label " text="Android Engine 0.0.5 &#10;Добро пожаловать user%data" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label4" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rectAlt" visible="1"/>
+  </children>
+</AnchorPane>

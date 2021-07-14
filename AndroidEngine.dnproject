@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project author="Ноутбук" authorOS="Windows 7" createdAt="1489911322095" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="AndroidEngine" packageName="app" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1625091339780">
+  <openedFiles>
+  <file src="AndroidEngine.dnproject"/>
+    <file src="src/app/forms/Bluetooth.php"/>
+    <file src="src/app/forms/Bluetooth_ENG.php"/>
+    <file selected="1" src="src/app/forms/Browser2_0.php"/>
+    <file src="src/app/forms/Dekstop.php"/>
+    <file src="src/app/forms/Dekstop_ENG.php"/>
+    <file src="src/app/forms/Info.php"/>
+    <file src="src/app/forms/Info_ENG.php"/>
+    <file src="src/app/forms/Language.php"/>
+    <file src="src/app/forms/Language1.php"/>
+    <file src="src/app/forms/Login.php"/>
+    <file src="src/app/forms/Menu.php"/>
+    <file src="src/app/forms/MenuAdminAuth.php"/>
+    <file src="src/app/forms/MenuAdminAuth_ENG.php"/>
+    <file src="src/app/forms/MenuDev.php"/>
+    <file src="src/app/forms/Menu_ENG.php"/>
+    <file src="src/app/forms/Music.php"/>
+    <file src="src/app/forms/NotePad.php"/>
+    <file src="src/app/forms/Phone.php"/>
+    <file src="src/app/forms/Phone_ENG.php"/>
+    <file src="src/app/forms/PO.php"/>
+    <file src="src/app/forms/PO_ENG.php"/>
+    <file src="src/app/forms/replace.php"/>
+    <file src="src/app/forms/Settings.php"/>
+    <file src="src/app/forms/Settings_ENG.php"/>
+    <file src="src/app/forms/SIM.php"/>
+    <file src="src/app/forms/SIM_ENG.php"/>
+    <file src="src/app/forms/Sms.php"/>
+    <file src="src/app/forms/Sms_ENG.php"/>
+    <file src="src/app/forms/Wifi.php"/>
+    <file src="src/app/forms/Wifi_ENG.php"/>
+    <file src="src/app/modules/modulesMusic.php"/>
+    <file src="src/app/modules/modulesNotepad.php"/>
+  </openedFiles>
+  <files>
+  </files>
+  <behaviours>
+  <behaviour class="ide\project\behaviours\BundleProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\PhpProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\JavaPlatformBehaviour"/>
+    <behaviour class="ide\project\behaviours\GuiFrameworkProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\RunBuildProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\ShareProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\GradleProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\BackupProjectBehaviour"/>
+  </behaviours>
+<tree>
+    <expanded>
+    <path src=""/>
+      <path src="/src"/>
+      <path src="/src/app"/>
+      <path src="/src/app/forms"/>
+      <path src="/src/app/modules"/>
+    </expanded>
+  </tree>
+</project>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="Dekstop">
+    <method name="doImage7ClickLeft">
+      <showForm form="Phone" form-type="form"/>
+    </method>
+  <method name="doImage8ClickLeft">
+      <showForm form="Sms" form-type="form"/>
+    </method>
+  
+  <method name="doImage10ClickLeft">
+      <showForm form="Settings" form-type="form"/>
+    </method>
+  <method name="doImage6MouseUpLeft">
+      <showForm form="Menu" form-type="form"/>
+    </method>
+  <method name="doButtonClickLeft">
+      <hideForm form="Dekstop" form-type="form"/>
+    </method>
+  <method name="doButtonAltClickLeft">
+      <toast value="Недоступно, ожидайте обновления" value-type="string"/>
+    </method>
+  <method name="doImage9ClickLeft">
+      <showForm form="Browser2_0" form-type="form"/>
+    </method>
+  <method name="doImage11ClickLeft">
+      <showForm form="MenuAdminAuth" form-type="form"/>
+    </method>
+  <method name="doImage12ClickLeft">
+      <showForm form="NotePad" form-type="form"/>
+    </method>
+  <method name="doImage13ClickLeft">
+      <message kind="" kind-type="" value="Извините, ошибка." value-type="string" wait="" wait-type=""/>
+    </method>
+  </class>
+</root>

@@ -1,0 +1,30 @@
+{
+  "props": [],
+  "components": {
+    "openFile": {
+      "type": "script\\FileChooserScript",
+      "x": 592,
+      "y": 288,
+      "props": {
+        "saveDialog": true,
+        "filterName": "Все файлы",
+        "filterExtensions": "",
+        "filterAny": "0",
+        "inputNode": "",
+        "actionNode": "openFile"
+      }
+    },
+    "saveFile": {
+      "type": "script\\FileChooserScript",
+      "x": 480,
+      "y": 176,
+      "props": {
+        "filterName": "Все файлы",
+        "filterExtensions": "",
+        "filterAny": "0",
+        "inputNode": "",
+        "actionNode": "saveFile"
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="SIM">
+    <method name="doImageMouseDownLeft">
+      <hideForm form="SIM" form-type="form"/>
+    </method>
+  </class>
+<class name="SIM_ENG">
+    <method name="doImageMouseDownLeft">
+      <hideForm form="SIM_ENG" form-type="form"/>
+    </method>
+  </class>
+</root>

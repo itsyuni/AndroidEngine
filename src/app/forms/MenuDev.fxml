@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="368" prefWidth="560" styleClass="">
+  <children>
+    <Separator focusTraversable="false" id="separator" layoutX="0" layoutY="27" orientation="HORIZONTAL" prefHeight="8" prefWidth="560" styleClass="separator "/>
+    <Data cursor="DEFAULT" enabled="1" id="data-separator" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="21" id="image" layoutX="535" layoutY="5" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="21">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image" image=".data/img/highlight_remove_black_18x18.png" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="8" layoutY="7" prefHeight="17" prefWidth="280" styleClass="label " text="Меню разработчика" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelAlt" layoutX="8" layoutY="40" prefHeight="16" prefWidth="96" styleClass="label " text="Анимации" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-labelAlt" visible="1"/>
+    <ComboBox editable="false" focusTraversable="true" id="combobox" layoutX="8" layoutY="60" prefHeight="16" prefWidth="144" promptText="" styleClass="combo-box-base combo-box " value="" visibleRowCount="10">
+      <items xmlns:fx="http://javafx.com/fxml">
+        <FXCollections fx:factory="observableArrayList">
+          <String fx:value="0"/>
+          <String fx:value="0.5x"/>
+          <String fx:value="1x"/>
+          <String fx:value="1.5x"/>
+          <String fx:value="2.5x"/>
+        </FXCollections>
+      </items>
+    </ComboBox>
+    <Data cursor="DEFAULT" enabled="1" id="data-combobox" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label3" layoutX="8" layoutY="93" prefHeight="16" prefWidth="96" styleClass="label " text="GPU-ускорение" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label3" visible="1"/>
+    <Slider blockIncrement="10" focusTraversable="true" id="slider" layoutX="10" layoutY="118" majorTickUnit="25" max="100" min="0" orientation="HORIZONTAL" prefHeight="14" prefWidth="48" showTickLabels="false" showTickMarks="false" snapToTicks="false" styleClass="slider " value="0"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-slider" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label4" layoutX="8" layoutY="136" prefHeight="17" prefWidth="160" styleClass="label " text="Включение OpenGL" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label4" visible="1"/>
+    <Slider blockIncrement="10" focusTraversable="true" id="sliderAlt" layoutX="11" layoutY="166" majorTickUnit="25" max="100" min="0" orientation="HORIZONTAL" prefHeight="14" prefWidth="48" showTickLabels="false" showTickMarks="false" snapToTicks="false" styleClass="slider " value="0"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-sliderAlt" visible="1"/>
+  </children>
+</AnchorPane>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="MenuAdminAuth">
+    <method name="doImageClickLeft">
+      <hideForm form="MenuAdminAuth" form-type="form"/>
+    </method>
+  <method name="doButtonAction">
+      <fadeIn continue="" continue-type="" duration="1000" duration-type="integer" object="~sender" object-type="object"/>
+    </method>
+  </class>
+</root>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="Browser2_0">
+    
+  
+  
+  
+  
+  
+  <method name="doImageClickLeft">
+      <hideForm form="Browser2_0" form-type="form"/>
+    </method>
+  </class>
+</root>

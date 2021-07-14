@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<behaviours>
+  <target id="image">
+    <behaviour threshold="0.3983606557377" type="behaviour\custom\BloomEffectBehaviour" when="HOVER"/>
+  </target>
+  <target id="image5">
+    <behaviour threshold="0.3983606557377" type="behaviour\custom\BloomEffectBehaviour" when="HOVER"/>
+  </target>
+  <target id="image4">
+    <behaviour threshold="0.3983606557377" type="behaviour\custom\BloomEffectBehaviour" when="HOVER"/>
+  </target>
+  <target id="image6">
+    <behaviour threshold="0.41475409836066" type="behaviour\custom\BloomEffectBehaviour" when="HOVER"/>
+  </target>
+  <target id="image7">
+    <behaviour threshold="0.41475409836066" type="behaviour\custom\BloomEffectBehaviour" when="HOVER"/>
+  </target>
+</behaviours>

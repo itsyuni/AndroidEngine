@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="Login">
+    <method name="doImageAltClickLeft">
+      <hideForm form="Login" form-type="form"/>
+    </method>
+  <method name="doImageClickLeft">
+      <showForm form="Dekstop_ENG" form-type="form"/>
+    </method>
+  </class>
+</root>

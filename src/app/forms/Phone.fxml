@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="448" prefWidth="592" styleClass="">
+  <children>
+    <Rectangle arcHeight="0" arcWidth="0" fill="#8099ff" focusTraversable="false" height="128" id="rect" layoutX="0" layoutY="0" stroke="#8099ff" strokeType="INSIDE" strokeWidth="2" styleClass="" width="592"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rect" visible="1"/>
+    <Rectangle arcHeight="0" arcWidth="0" fill="#ffffff" focusTraversable="false" height="320" id="rectAlt" layoutX="0" layoutY="128" stroke="#ffffff" strokeType="INSIDE" strokeWidth="2" styleClass="" width="592"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rectAlt" visible="1"/>
+    <Rectangle arcHeight="0" arcWidth="0" fill="#ffffff" focusTraversable="false" height="40" id="rect4" layoutX="8" layoutY="8" stroke="#ffffff" strokeType="INSIDE" strokeWidth="2" styleClass="" width="552"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rect4" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="23" id="image4" layoutX="16" layoutY="16" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="23">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image4" image=".data/img/search_black_18x18.png" tooltipText="Поиск" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="19" id="image5" layoutX="534" layoutY="17" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="19">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image5" image=".data/img/build_black_18x18.png" tooltipText="Настройки вызовов" visible="1"/>
+    <TextField alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="edit" layoutX="48" layoutY="16" prefColumnCount="12" prefHeight="25" prefWidth="480" promptText="Введите имя или номер телефона" styleClass="text-input text-field " text="">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </TextField>
+    <Data cursor="DEFAULT" enabled="1" id="data-edit" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="26" id="image6" layoutX="176" layoutY="96" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="26">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image6" image=".data/img/star_rate_white_18x18.png" tooltipText="Избранные" visible="1"/>
+    <Rectangle arcHeight="0" arcWidth="0" fill="#ffffff" focusTraversable="false" height="0" id="rect5" layoutX="11" layoutY="128" stroke="#ffffff" strokeType="INSIDE" strokeWidth="2" styleClass="" width="64"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rect5" visible="1"/>
+    <Rectangle arcHeight="0" arcWidth="0" fill="#ffffff" focusTraversable="false" height="5" id="rect6" layoutX="160" layoutY="123" stroke="#ffffff" strokeType="INSIDE" strokeWidth="2" styleClass="" width="54"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rect6" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="20" id="image7" layoutX="390" layoutY="96" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="20">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image7" image=".data/img/watch_later_white_18x18.png" tooltipText="Последние звонки" visible="1"/>
+    <Rectangle arcHeight="0" arcWidth="0" fill="#ffffff" focusTraversable="false" height="5" id="rect7" layoutX="374" layoutY="123" stroke="#ffffff" strokeType="INSIDE" strokeWidth="2" styleClass="" width="54"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rect7" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelAlt" layoutX="240" layoutY="264" prefHeight="17" prefWidth="152" styleClass="label " text="Нет последних звонков" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-labelAlt" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="25" id="image" layoutX="563" layoutY="13" mosaic="false" mosaicGap="0" proportional="false" rotate="47.213114754098" stretch="true" styleClass="" textFill="#000000" width="25">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image" image=".data/img/add_white_18x18.png" visible="1"/>
+  </children>
+</AnchorPane>

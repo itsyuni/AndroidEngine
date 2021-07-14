@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="Settings">
+    
+  
+  
+  
+  <method name="doLabel4ClickLeft">
+      <showForm form="Wifi" form-type="form"/>
+    </method>
+  <method name="doLabel5ClickLeft">
+      <showForm form="Bluetooth" form-type="form"/>
+    </method>
+  <method name="doLabel13ClickLeft">
+      <showForm form="Info" form-type="form"/>
+    </method>
+  <method name="doLabel6ClickLeft">
+      <showForm form="SIM" form-type="form"/>
+    </method>
+  <method name="doLabel7ClickLeft">
+      <showForm form="PO" form-type="form"/>
+    </method>
+  
+  <method name="doLabel10ClickLeft">
+      <showForm form="Language1" form-type="form"/>
+    </method>
+  <method name="doLabel11ClickLeft">
+      <showForm form="MenuAdminAuth" form-type="form"/>
+    </method>
+  <method name="doImageClickLeft">
+      <hideForm form="Settings" form-type="form"/>
+    </method>
+  </class>
+</root>
